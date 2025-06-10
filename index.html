@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>栄養価検索</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>野菜・果物栄養価検索</h1>
+            <p>野菜や果物の名前を入力して、栄養価情報を調べましょう</p>
+        </header>
+        
+        <div class="search-section">
+            <input type="text" id="food-input" placeholder="野菜や果物の名前を入力（例：りんご、トマト）">
+            <button id="search-btn">検索</button>
+        </div>
+        
+        <div class="results-container">
+            <div id="loading" class="hidden">検索中...</div>
+            <div id="error-message" class="hidden"></div>
+            <div id="results" class="hidden">
+                <div class="food-info">
+                    <h2 id="food-name"></h2>
+                    <img id="food-image" src="" alt="">
+                </div>
+                <div class="nutrition-info">
+                    <h3>基本栄養素</h3>
+                    <div class="nutrition-grid">
+                        <div class="nutrition-item">
+                            <span class="label">カロリー</span>
+                            <span id="calories" class="value"></span>
+                        </div>
+                        <div class="nutrition-item">
+                            <span class="label">たんぱく質</span>
+                            <span id="protein" class="value"></span>
+                        </div>
+                        <div class="nutrition-item">
+                            <span class="label">脂質</span>
+                            <span id="fat" class="value"></span>
+                        </div>
+                        <div class="nutrition-item">
+                            <span class="label">炭水化物</span>
+                            <span id="carbs" class="value"></span>
+                        </div>
+                        <div class="nutrition-item">
+                            <span class="label">食物繊維</span>
+                            <span id="fiber" class="value"></span>
+                        </div>
+                        <div class="nutrition-item">
+                            <span class="label">糖質</span>
+                            <span id="sugar" class="value"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="vitamins-minerals">
+                    <h3>ビタミン・ミネラル</h3>
+                    <div id="vitamins-list" class="nutrition-grid"></div>
+                </div>
+                <div class="health-benefits">
+                    <h3>健康効果</h3>
+                    <ul id="benefits-list"></ul>
+                </div>
+            </div>
+            
+            <div id="history" class="hidden">
+                <h3>最近の検索</h3>
+                <ul id="history-list"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 栄養価検索アプリ</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
