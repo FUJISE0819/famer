@@ -116,6 +116,144 @@ const foodDatabase = {
             '心臓病のリスクを下げる',
             '血糖値の急上昇を抑える効果がある'
         ]
+    },
+    'キャベツ': {
+        name: 'キャベツ',
+        image: 'https://cdn.pixabay.com/photo/2018/10/03/22/08/cabbage-3722498_960_720.jpg',
+        calories: '23kcal/100g',
+        protein: '1.3g/100g',
+        fat: '0.1g/100g',
+        carbs: '5.2g/100g',
+        fiber: '2.5g/100g',
+        sugar: '3.2g/100g',
+        vitamins: [
+            { name: 'ビタミンC', value: '36.6mg/100g', high: true },
+            { name: 'ビタミンK', value: '76μg/100g', high: true },
+            { name: '葉酸', value: '43μg/100g', high: true },
+            { name: 'カリウム', value: '170mg/100g', high: true },
+            { name: 'カルシウム', value: '40mg/100g', high: false }
+        ],
+        benefits: [
+            '消化を助け、胃腸の健康をサポート',
+            '抗炎症作用があり、炎症を抑える',
+            'デトックス効果があり、体内の毒素排出を促進',
+            '免疫機能を強化する'
+        ]
+    },
+    'にんじん': {
+        name: 'にんじん',
+        image: 'https://cdn.pixabay.com/photo/2015/03/14/14/00/carrots-673184_960_720.jpg',
+        calories: '41kcal/100g',
+        protein: '0.9g/100g',
+        fat: '0.2g/100g',
+        carbs: '9.6g/100g',
+        fiber: '2.8g/100g',
+        sugar: '4.7g/100g',
+        vitamins: [
+            { name: 'ビタミンA', value: '835μg/100g', high: true },
+            { name: 'ビタミンK', value: '13.2μg/100g', high: true },
+            { name: 'ビタミンC', value: '5.9mg/100g', high: false },
+            { name: 'カリウム', value: '320mg/100g', high: true },
+            { name: 'β-カロテン', value: '8.3mg/100g', high: true }
+        ],
+        benefits: [
+            '目の健康を促進し、視力低下を予防',
+            '免疫機能を強化する',
+            '皮膚の健康を促進',
+            '心臓病のリスクを下げる'
+        ]
+    },
+    'ブロッコリー': {
+        name: 'ブロッコリー',
+        image: 'https://cdn.pixabay.com/photo/2016/03/05/19/02/broccoli-1238250_960_720.jpg',
+        calories: '34kcal/100g',
+        protein: '2.8g/100g',
+        fat: '0.4g/100g',
+        carbs: '6.6g/100g',
+        fiber: '2.6g/100g',
+        sugar: '1.7g/100g',
+        vitamins: [
+            { name: 'ビタミンC', value: '89.2mg/100g', high: true },
+            { name: 'ビタミンK', value: '102μg/100g', high: true },
+            { name: '葉酸', value: '63μg/100g', high: true },
+            { name: 'カリウム', value: '316mg/100g', high: true },
+            { name: 'マンガン', value: '0.2mg/100g', high: false }
+        ],
+        benefits: [
+            '抗酸化作用が強く、がん予防に効果的',
+            '解毒作用があり、体内の毒素排出を促進',
+            '心臓の健康をサポート',
+            '消化を助け、腸内環境を整える'
+        ]
+    },
+    'かぼちゃ': {
+        name: 'かぼちゃ',
+        image: 'https://cdn.pixabay.com/photo/2015/05/26/17/42/pumpkin-785449_960_720.jpg',
+        calories: '26kcal/100g',
+        protein: '1g/100g',
+        fat: '0.1g/100g',
+        carbs: '6.5g/100g',
+        fiber: '0.5g/100g',
+        sugar: '2.8g/100g',
+        vitamins: [
+            { name: 'ビタミンA', value: '426μg/100g', high: true },
+            { name: 'ビタミンC', value: '9mg/100g', high: true },
+            { name: 'ビタミンE', value: '1.1mg/100g', high: true },
+            { name: 'カリウム', value: '340mg/100g', high: true },
+            { name: 'β-カロテン', value: '3.1mg/100g', high: true }
+        ],
+        benefits: [
+            '目の健康を促進し、視力低下を予防',
+            '免疫機能を強化する',
+            '心臓の健康をサポート',
+            '抗酸化作用があり、老化防止に効果的'
+        ]
+    },
+    'オレンジ': {
+        name: 'オレンジ',
+        image: 'https://cdn.pixabay.com/photo/2017/01/20/15/06/oranges-1995056_960_720.jpg',
+        calories: '47kcal/100g',
+        protein: '0.9g/100g',
+        fat: '0.1g/100g',
+        carbs: '11.8g/100g',
+        fiber: '2.4g/100g',
+        sugar: '9.4g/100g',
+        vitamins: [
+            { name: 'ビタミンC', value: '53.2mg/100g', high: true },
+            { name: '葉酸', value: '30μg/100g', high: true },
+            { name: 'カリウム', value: '181mg/100g', high: true },
+            { name: 'カルシウム', value: '40mg/100g', high: false },
+            { name: 'フラボノイド', value: '高', high: true }
+        ],
+        benefits: [
+            '免疫機能を強化する',
+            '皮膚の健康を促進',
+            '心臓病のリスクを下げる',
+            '抗酸化作用があり、老化防止に効果的'
+        ]
+    },
+    'ブルーベリー': {
+        name: 'ブルーベリー',
+        image: 'https://cdn.pixabay.com/photo/2018/06/07/16/38/blueberries-3460423_960_720.jpg',
+        calories: '57kcal/100g',
+        protein: '0.7g/100g',
+        fat: '0.3g/100g',
+        carbs: '14.5g/100g',
+        fiber: '2.4g/100g',
+        sugar: '10g/100g',
+        vitamins: [
+            { name: 'ビタミンC', value: '9.7mg/100g', high: true },
+            { name: 'ビタミンK', value: '19.3μg/100g', high: true },
+            { name: 'マンガン', value: '0.3mg/100g', high: true },
+            { name: 'アントシアニン', value: '高', high: true },
+            { name: 'ポリフェノール', value: '高', high: true }
+        ],
+        benefits: [
+            '目の健康を促進し、視力低下を予防',
+            '記憶力や認知機能の向上に効果的',
+            '抗酸化作用が強く、老化防止に効果的',
+            '心臓病のリスクを下げる'
+        ]
     }
 };
 
